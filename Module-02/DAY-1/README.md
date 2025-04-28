@@ -27,7 +27,6 @@ RegisterNumber:  212222230106
 ```
 
 ## Sourcecode.java:
-
 ```java
 import java.util.Scanner;
 
@@ -45,11 +44,6 @@ public class CubeCalculator {
     }
 }
 ```
-
-
-
-
-
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/447295af-86fe-42be-adf1-f3b1b6077c20)
 
