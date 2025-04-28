@@ -24,7 +24,7 @@ RegisterNumber: 212222230106
 ```
 
 ## Sourcecode.java:
-```
+```java
 class Student
 {
     String name;
