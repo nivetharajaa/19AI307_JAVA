@@ -26,7 +26,7 @@ RegisterNumber: 212222230106
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.Scanner;
 
 public class Demo {
@@ -51,9 +51,9 @@ public class Demo {
 ## OUTPUT:
 ```
 Input	        Expected Output
-0	         Given number is Zero
-12	         12 is Non-Zero
--32	         -32 is Non-Zero
+0	        Given number is Zero
+12	        12 is Non-Zero
+-32	        -32 is Non-Zero
 ```
 
 ## RESULT:
