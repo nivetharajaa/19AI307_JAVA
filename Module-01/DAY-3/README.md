@@ -27,8 +27,7 @@ RegisterNumber:  212222230106
 ```
 
 ## Sourcecode.java:
-
-```
+```java
 import java.util.*;
 public class Demo{
     public static void main(String[] args){
