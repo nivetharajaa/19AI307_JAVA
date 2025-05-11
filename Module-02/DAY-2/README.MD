@@ -52,10 +52,10 @@ public class A
 
 ## OUTPUT:
 
-
 Expected    Got 
 
 17          17
+
 
 
 ## RESULT:
