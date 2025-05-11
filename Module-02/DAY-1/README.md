@@ -1,6 +1,6 @@
 # Ex.No:2(A)  STATIC METHOD
 
-## AIM:
+## AIM:n
 To create a java program for calculate cube of a number using static method.
 
 ## ALGORITHM :
