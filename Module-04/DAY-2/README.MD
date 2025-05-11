@@ -83,7 +83,6 @@ public class Main
 }
 ```
 
-
 ## OUTPUT:
 ```
 Input      Expected                  Got
@@ -94,4 +93,3 @@ Input      Expected                  Got
 
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
-
