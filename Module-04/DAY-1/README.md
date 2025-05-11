@@ -1,6 +1,6 @@
 # Ex.No:4(A)  JAVA CONSTRUCTOR
 ## AIM:
-To create a Java program using constructor to print the circumference of rectangle.[l=5,w=6]
+To create a Java program using clonstructor to print the circumference of rectangle.[l=5,w=6]
 
 ## ALGORITHM :
 1.  1.	Start the Program.
