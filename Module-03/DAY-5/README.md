@@ -3,11 +3,13 @@
 ## AIM:
 To write a java program to calculate the number of tokens present in the tokenizer string.
 ## ALGORITHM :
-Step 1: Start Step 
-2: Import the required classes: import java.util.* for Scanner and StringTokenizer.
-Step 3: Create the Main class.
+1: Start program
 
-Step 4: Inside the main method:
+2: Import the required classes: import java.util.* for Scanner and StringTokenizer.
+
+3: Create the Main class.
+
+4: Inside the main method:
 
 a. Create a Scanner object to read user input.
 
@@ -19,7 +21,7 @@ d. Use countTokens() method to count the number of tokens (words separated by wh
 
 e. Print the total number of tokens.
 
-Step 5: End
+5: End
 
 
 ## PROGRAM:
@@ -53,4 +55,4 @@ public class Main
 
 
 ## RESULT:
-Thus the  Java program successfully creates a StringBuilder object using the given string and stores the reference in the variable sb. The contents of the object are printed using the reference variable.
+Thus the Java program successfully has calculate the number of tokens present in the tokenizer string.
