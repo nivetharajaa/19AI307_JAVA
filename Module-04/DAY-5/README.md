@@ -52,8 +52,8 @@ Print laptopPrice.
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Nivetha A 
+RegisterNumber: 212222230101 
 */
 ```
 
@@ -90,4 +90,4 @@ public class Sample {
 ![438026835-dd258499-d8e9-427a-97a0-9157d4055a30](https://github.com/user-attachments/assets/eec7963a-b392-4d04-a295-2bccf8d15763)
 
 ## RESULT:
-Thus, the  java program was successfully demonstrates the use of a parameterized constructor to initialize class fields.
+Thus, the java program was successfully parameterized constructor in the Laptop class given below that initializes the brand , price class field with the string "Apple" and 42500.75.
