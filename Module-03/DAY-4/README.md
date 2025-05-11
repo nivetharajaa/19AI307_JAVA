@@ -32,10 +32,10 @@ public class GFG {
 	public static void main(String[] args)
 	{
 	    Scanner sc=new Scanner(System.in);
-	          	String str = sc.nextLine();
-	          	String[] split = str.split(" ");
-           	for (int i = 0; i < split.length; i++)
-		                  	System.out.println(split[i]);
+                   String str = sc.nextLine();
+                   String[] split = str.split(" ");
+           	   for (int i = 0; i < split.length; i++)
+                            System.out.println(split[i]);
   }
 }
 
