@@ -1,70 +1,64 @@
-# Ex.No:5(B) TIGHTLY ENCAPSULATED CLASS
+# Ex.No:5(C)    GETTER AND SETTER METHOD
 
 ## AIM:
-To Create a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class.
+To Create a java program to print the sum of two number using getter and setter method.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Define `Cylinder` class:
--	a) Private variables `radius` and `height`
--	b) `setRadius(int r)` and `setHeight(int h)` methods to set values
--	c) `getVolume()` method:
-- i) Calculate and print `volume = pi * radius * radius * height`
-3.	In `Main` class `main` method:
--	a) Use `Scanner` to read `radius` and `height`
--	b) Create `Cylinder` object, set values, and call `getVolume()`
+1.  Start the Program
+2.	Define class `Employee`:
+-	a) Private variables `n1` and `n2`
+-	b) Method `setsum(int n1, int n2)` to set values of `n1` and `n2`
+-	c) Method `getsum()` to calculate and print `sum = n1 + n2`
+3.	In `main` class `main` method:
+-	a) Use `Scanner` to read integers `n1` and `n2`
+-	b) Create ` Employee ` object, set values, and call `getsum()`
 4.	End
-
 
 
 ## PROGRAM:
  ```
 /*
-Program to implement a tightly encapsulated class using Java
+Program to implement a Getter and Setter using Java
 Developed by: Nivetha A
 RegisterNumber: 212222230101
 */
 ```
 
 ## Sourcecode.java:
-```java
+```
 import java.util.*;
+public class SetAndGet {
+private String a;
+private String b;
 
-class Num {
-    private int r, h;
-    
-    
-    public void setValues(int r, int h) {
-        this.r = r;
-        this.h = h;
-    }
-    
-    public double calculateVolume() {
-        return (22.0 / 7)  * r * r * h;
-    }
+public void getadd() {
+    int a1=Integer.parseInt(a);
+    int b1=Integer.parseInt(b);
+	System.out.print("Sum is " + (a1+b1)); 
+	
+}
+public void setadd(String a,String b) {
+ this.a =a;
+ this.b=b;
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        int r = sc.nextInt();
-        int h = sc.nextInt();
-        
-        Num obj = new Num();
-        obj.setValues(r, h);
-        System.out.println("volume of Cylinder is: " + obj.calculateVolume());
-        
-    }
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+ SetAndGet obj = new SetAndGet();
+ String str=sc.nextLine();
+ String str1=sc.nextLine();
+ 
+ obj.setadd(str,str1);
+ 
+ obj.getadd();
+}
 }
 ```
+
 ## OUTPUT:
 
-![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/57a9eed3754de7da917e6ae395448054154907eb/Module-05/DAY-2/image.png)
-
+![image](https://github.com/user-attachments/assets/ad891b8f-63c2-4dac-afaa-a6d8e5c46519)
 
 ## RESULT:
-Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
-
-
+Thus the java program to print the sum of two number using getter and setter method was executed successfully.
 
