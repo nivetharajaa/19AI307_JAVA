@@ -15,17 +15,19 @@ To Create a java program to display the value of volume of cylinder get the radi
 -	b) Create `Cylinder` object, set values, and call `getVolume()`
 4.	End
 
+
+
 ## PROGRAM:
  ```
 /*
 Program to implement a tightly encapsulated class using Java
-Developed by: Nivetha A 
-RegisterNumber:212222230101  
+Developed by: Nivetha A
+RegisterNumber: 212222230101
 */
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.*;
 
 class Num {
@@ -56,9 +58,9 @@ public class Main {
     }
 }
 ```
-
-
 ## OUTPUT:
+
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/57a9eed3754de7da917e6ae395448054154907eb/Module-05/DAY-2/image.png)
 
 
 ## RESULT:
