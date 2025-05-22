@@ -15,33 +15,50 @@ To Create a java program to display the value of volume of cylinder get the radi
 -	b) Create `Cylinder` object, set values, and call `getVolume()`
 4.	End
 
-
-
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a tightly encapsulated class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Nivetha A 
+RegisterNumber:212222230101  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+class Num {
+    private int r, h;
+    
+    
+    public void setValues(int r, int h) {
+        this.r = r;
+        this.h = h;
+    }
+    
+    public double calculateVolume() {
+        return (22.0 / 7)  * r * r * h;
+    }
+}
 
-
-
-
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int r = sc.nextInt();
+        int h = sc.nextInt();
+        
+        Num obj = new Num();
+        obj.setValues(r, h);
+        System.out.println("volume of Cylinder is: " + obj.calculateVolume());
+        
+    }
+}
+```
 
 
 ## OUTPUT:
-
 
 
 ## RESULT:
