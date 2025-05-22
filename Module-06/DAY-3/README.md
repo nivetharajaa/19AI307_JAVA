@@ -17,35 +17,65 @@
 -	b) Create `Child2` object `chi` and call `show()` and `display()` on it
 6.	End
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Nivetha A 
+RegisterNumber:212222230101  
 */
 ```
 
 ## Sourcecode.java:
+```
+class Parent {
+    // Method to display message from Parent class
+    public void display() {
+        System.out.println("This is Parent Class");
+    }
+}
 
+// Child1 class inherits from Parent class
+class Child1 extends Parent {
+    // Method to display message from Child1 class
+    public void print() {
+        System.out.println("This is Child1 Class");
+    }
+}
 
+// Child2 class inherits from Parent class
+class Child2 extends Parent {
+    // Method to display message from Child2 class
+    public void print() {
+        System.out.println("This is Child2 Class");
+    }
+}
 
+// Main class to run the program
+public class Main {
+    public static void main(String[] args) {
+        // Creating object for Child1
+        Child1 child1 = new Child1();
+        
+        // Accessing methods from Child1 and Parent
+        child1.display(); // Parent class method
+        child1.print();   // Child1 class method
 
-
-
+        // Creating object for Child2
+        Child2 child2 = new Child2();
+        
+        // Accessing methods from Child2 and Parent
+        child2.display(); // Parent class method
+        child2.print();   // Child2 class method
+    }
+}
+```
 
 ## OUTPUT:
 
+![442048059-0ccbeaa4-5bc3-492c-9ea4-8328166d77c4-1](https://github.com/user-attachments/assets/34b5e453-daa8-44df-bd12-47014c223bde)
 
 
 ## RESULT:
 Thus the java program for Hierarchical inheritance was executed successfully.
-
-
-
-
-
 
