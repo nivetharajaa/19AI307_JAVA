@@ -15,21 +15,36 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by:Nivetha A 
+RegisterNumber:212222230101 
 */
 ```
 
 ## Sourcecode.java:
+```
+package packageone;
 
+public class Message {
+    public void showMessage() {
+        System.out.println("Hello from packageone!");
+    }
+}
 
+package packagetwo;
 
+import packageone.Message;  // Import the class from another package
 
-
-
+public class PackageTest {
+    public static void main(String[] args) {
+        Message msg = new Message();  // Create object of class from another package
+        msg.showMessage();
+    }
+}
+```
 
 ## OUTPUT:
 
+![ltuzdsyp](https://github.com/user-attachments/assets/de7e725f-9bc3-485b-aa36-12650a496383)
 
 
 ## RESULT:
